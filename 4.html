@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>DOM</title>
+  <script>
+    function (init){
+      var obj = document.getElementById("t")
+      alert(obj.innerHTML + "1");
+      obj.innerHTML = "没错";
+    }
+    window.onload=init;
+  </script>
+</head>
+
+<body>
+  <h1 id="t">马华军是傻逼</h1>
+
+</body>
+
+</html>
